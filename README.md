@@ -17,12 +17,12 @@ Enjoy!
 
 ## 🌐 Features
 
-**Multi-Framework Compatibility:** Works with multiple frameworks out of the box, any frameworks not covered can be added into boii_utils.
-**Customizable UI:** Clean and simple UI with customizable root CSS files for easy theming and adjustments.
-**Multiple Store Locations:** Each store type can support multiple locations. The config allows for easy addition of new store types, making the script highly extensible.
-**In Built Progress Timer:** A progress circle timer has replaced progressbar. This keeps the resource closer to standalone, minimizing dependencies.
-**Catch & Release:** Players can choose to either catch their fish or release them, this opens up for having illegal fish players can only catch & release.
-**Skill System:** Includes a full toggleable skill system players can work through to progress.
+- **Multi-Framework Compatibility:** Works with multiple frameworks out of the box, any frameworks not covered can be added into boii_utils.
+- **Customizable UI:** Clean and simple UI with customizable root CSS files for easy theming and adjustments.
+- **Multiple Store Locations:** Each store type can support multiple locations. The config allows for easy addition of new store types, making the script highly extensible.
+- **In Built Progress Timer:** A progress circle timer has replaced progressbar. This keeps the resource closer to standalone, minimizing dependencies.
+- **Catch & Release:** Players can choose to either catch their fish or release them, this opens up for having illegal fish players can only catch & release.
+- **Skill System:** Includes a full toggleable skill system players can work through to progress.
 
 ## 💹 Dependencies
 
