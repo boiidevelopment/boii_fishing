@@ -1,0 +1,260 @@
+.fishing_ui {
+    position: absolute;
+    bottom: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+    gap: 1vw;
+    font-family: var(--header_font_family);
+}
+
+.bait {
+    position: relative;
+    display: flex;
+}
+
+.bait img {
+    height: 4vw;
+    object-fit: cover;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--text_colour);
+    text-shadow: var(--text_shadow);
+    font-size: 1.8vh;
+    font-weight: bold;
+}
+
+#bait_status {
+    font-weight: bold;
+    position: relative;
+    font-size: 2.5vh;
+    padding: 0.5vh;
+}
+
+#bait_status::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 0.4vh;
+    background: linear-gradient(to right, white, transparent);
+    border-radius: var(--border_radius);
+}
+
+#action_status {
+    font-family: var(--text_font_family);
+    padding: 0.7vh;
+    
+}
+
+#bait_selection {
+    display: none;
+    padding: 2vh;
+}
+
+#bait_selection h3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: var(--text_colour);
+    text-shadow: var(--text_shadow);
+    font-family: var(--header_font_family);
+    padding: 1vh;
+    font-size: 3.5vh;
+}
+
+#bait_selection h3::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 0.4vh;
+    background: linear-gradient(to right, white, transparent);
+    border-radius: var(--border_radius);
+}
+
+.bait_selection {
+    color: var(--text_colour);
+    text-shadow: var(--text_shadow);
+    margin: 1vh;
+    font-family: var(--text_font_family);
+    font-size: 1.6vh;
+}
+
+.bait_selection:hover {
+    cursor: pointer;
+}
+
+.bait_selection p {
+    padding: 1vh;
+    font-weight: bold;
+}
+
+#bait_selection {
+    position: fixed;
+    top: 20vh;
+    display: none;
+    padding: 1vh;
+    border-radius: var(--border_radius);
+    color: var(--text_colour);
+}
+
+.bait_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bait_selection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    width: 95%;
+}
+
+.bait_selection:hover {
+    transform: scale(1.05);
+}
+
+.bait_selection.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    transform: none;
+}
+
+.bait_selection.disabled:hover {
+    transform: none;
+}
+
+
+.bait_image {
+    width: 2vw;
+    height: 2vw;
+    object-fit: cover;
+    border-radius: var(--border_radius);
+}
+
+.close_baits {
+    position: absolute;
+    top: 0;
+    background: none;
+    border: none;
+    font-size: 1.5vh;
+    color: var(--text_colour);
+    text-shadow: var(--text_shadow);
+    opacity: 0.9;
+    font-family: var(--text_font_family);
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    font-weight: bold;
+}
+
+.close_baits:hover { 
+    cursor: pointer;
+    opacity: 1.0
+}
+
+.fish_display {
+    position: fixed;
+    top: 20vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    border-radius: var(--border_radius);
+    color: var(--text_colour);
+}
+
+.fish_display h3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: var(--text_colour);
+    text-shadow: var(--text_shadow);
+    font-family: var(--header_font_family);
+    padding: 1vh;
+    font-size: 3vh;
+}
+
+.fish_display h3::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 0.4vh;
+    background: linear-gradient(to right, white, transparent);
+    border-radius: var(--border_radius);
+}
+
+.fish_display p {
+    padding: 1vh;
+    font-weight: bold;
+    color: var(--text_colour);
+    text-shadow: var(--text_shadow);
+    font-family: var(--text_font_family);
+}
+
+.fish_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fish_image {
+    height: 4vw;
+}
+
+.keys_container {
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+}
+
+.interaction_key {
+    display: flex;
+    align-items: center;
+    color: var(--text_colour);
+    font-family: var(--header_font_family);
+    text-shadow: var(--text_shadow);
+    font-size: 1.8vh;
+    padding: 1vh;
+}
+
+.key_label {
+    padding: 0.1vh;
+    color: var(--text_colour);
+    font-family: var(--text_font_family);
+}
+
+.key {
+    background: var(--secondary_background);
+    height: 2.5vh;
+    width: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2vh solid var(--text_colour);
+    border-radius: var(--border_radius);
+    color: var(--text_colour);
+    font-size: 1.75vh;
+    text-transform: uppercase;
+    margin-right: 1vh;
+}
+
+.key p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
