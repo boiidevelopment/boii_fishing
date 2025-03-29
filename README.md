@@ -144,4 +144,4 @@ Insert the following items into your `qb-core/shared/items.lua`
 
 ## 📩 Support
 
-[Discord](https://discord.gg/boiidevelopment)
+https://discord.gg/MUckUyS5Kq
