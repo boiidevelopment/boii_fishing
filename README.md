@@ -26,7 +26,7 @@ Enjoy!
 
 ## 💹 Dependencies
 
-- **[boii_utils](https://github.com/boiidevelopment/boii_utils)**
+- **[boii_utils](https://github.com/boiidevelopment/boii_utils/releases/tag/v1.8.7)**
 - **[boii_minigames](https://github.com/boiidevelopment/boii_minigames)**
 
 ## 💹 Optional Dependencies
